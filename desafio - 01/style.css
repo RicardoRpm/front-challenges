@@ -1,0 +1,26 @@
+* {
+    box-sizing: boder-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: var(--body);
+}
+
+header {
+    background: var(--header);
+    height: 150px;
+}
+
+h1, h2, h3, h4, h5, p {
+    color: var(--text);
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+
+
+
