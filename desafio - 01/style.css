@@ -8,9 +8,32 @@ body {
     background: var(--body);
 }
 
+.container {
+
+}
+
 header {
     background: var(--header);
     height: 150px;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-header {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1, h2, h3, h4, h5, p {
@@ -19,8 +42,21 @@ h1, h2, h3, h4, h5, p {
 
 h1, h2, h3, h4, h5 {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.title-initial-part {
+    color: var(--brown);
+}
 
+.input-blog {
+    border: 2px;
+    border-radius: 8px;
+    gap: 16px;
+    height: 35px;
+}
 
-
+.conteudo article {
+    margin-left: 400px;
+    margin-right: 400px;
+}
