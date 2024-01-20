@@ -6,10 +6,11 @@
     --title: #313131;
     --text: #B6B6B6;
     
-    --header: #17171A;
-    --body: #121214;
+    --black-light: #17171A;
+    
+    --black: #121214;
 
-    --brown: #E07B67;
+    --orange: #E07B67;
 
     --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
 }

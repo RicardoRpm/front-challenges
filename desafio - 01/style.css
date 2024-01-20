@@ -2,69 +2,31 @@
     box-sizing: boder-box;
     padding: 0;
     margin: 0;
+    /*font-size: 63%;*/
 }
+
+html {
+    scroll-behavior: smooth;    
+}
+
+body {
+    font-size: 1.5rem;
+    background: var(--black);
+}
+
+h1{
+    
+}
+
+h2 {
+
+}
+
+/*--------- HEADER ----------*/
 
 body {
     background: var(--body);
     font-family: 'Space Grotesk', sans-serif;
 }
 
-.container {
-
-}
-
-header {
-    background: var(--header);
-    height: 150px;
-}
-
-.container-header {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.container-header {
-    margin-left: 400px;
-    margin-right: 400px;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-h1, h2, h3, h4, h5, p {
-    color: var(--text);
-}
-
-h1, h2, h3, h4, h5 {
-    text-align: center;
-}
-
-.title-initial-part {
-    color: var(--brown);
-}
-
-.input-blog {
-    border: 2px;
-    border-radius: 8px;
-    gap: 16px;
-    height: 35px;
-}
-
-.conteudo article {
-    margin-left: 400px;
-    margin-right: 400px;
-}
-
-.input-blog{
-    width: 600px;
-}
-
-.title-text h2 {
-    margin-top: 10px;
-}
+/*--------- MAIN -----------*/
